@@ -14,10 +14,10 @@ function setup() {
   wall4 = createSprite(700, 370, 60, 80);
 
   //enter your values
-  speedbullet1 = 223;
-  speedbullet2 = 222;
-  speedbullet3 = 105;
-  speedbullet4 = 175;
+  speedbullet1 = random(100,223);
+  speedbullet2 = random(100,222);
+  speedbullet3 = random(100, 205);
+  speedbullet4 = random(100, 175);
 
   //enter your values
   weightbullet1 = 32;
